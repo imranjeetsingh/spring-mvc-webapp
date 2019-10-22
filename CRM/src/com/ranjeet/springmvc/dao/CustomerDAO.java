@@ -9,4 +9,6 @@ public interface CustomerDAO {
 	public List<Customer> getCustomer();
 
 	public void saveCustomer(Customer customer);
+
+	public Customer getCustomer(int id);
 }

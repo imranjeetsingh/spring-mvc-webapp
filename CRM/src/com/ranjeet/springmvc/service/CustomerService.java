@@ -1,12 +1,12 @@
-package com.ranjeet.springmvc.dao;
+package com.ranjeet.springmvc.service;
 
 import java.util.List;
 
 import com.ranjeet.springmvc.entity.Customer;
 
-public interface CustomerDAO {
+public interface CustomerService {
 	
-	public List<Customer> getCustomer();
+	public List<Customer> getCustomers();
 
 	public void saveCustomer(Customer customer);
 }
